@@ -10,7 +10,7 @@
       "collection_id": "1f72d21f-4845-4dd0-84db-91de7e382d8a",
       "name": "New Request",
       "method": "Get",
-      "url": "https://jsonplaceholder.typicode.com/posts",
+      "url": "https://jsonplaceholder.typicode.com/post",
       "headers": [],
       "params": [],
       "body": "",

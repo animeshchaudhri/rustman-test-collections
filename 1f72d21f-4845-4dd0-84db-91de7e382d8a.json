@@ -1,0 +1,36 @@
+{
+  "collection": {
+    "id": "1f72d21f-4845-4dd0-84db-91de7e382d8a",
+    "name": "My Requests",
+    "created_at": 1779910403550
+  },
+  "requests": [
+    {
+      "id": "84bf36b7-5479-436d-9745-4eeaac3c0ad9",
+      "collection_id": "1f72d21f-4845-4dd0-84db-91de7e382d8a",
+      "name": "New Request",
+      "method": "Get",
+      "url": "https://jsonplaceholder.typicode.com/posts",
+      "headers": [],
+      "params": [],
+      "body": "\n",
+      "body_type": "None",
+      "auth_type": "None",
+      "bearer_token": "",
+      "basic_user": "",
+      "basic_pass": "",
+      "api_key_name": "",
+      "api_key_value": "",
+      "api_key_location": "Header",
+      "form_data_fields": [],
+      "cookie_string": "",
+      "cookies": [],
+      "jwt_secret": "",
+      "jwt_subject": "",
+      "jwt_algo": "HS256",
+      "pre_request_script": "\n",
+      "test_script": "\n",
+      "timeout_ms": 30000
+    }
+  ]
+}

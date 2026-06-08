@@ -14,7 +14,7 @@
       "headers": [],
       "params": [],
       "body": "",
-      "body_type": "FormData",
+      "body_type": "Json",
       "auth_type": "None",
       "bearer_token": "",
       "basic_user": "",

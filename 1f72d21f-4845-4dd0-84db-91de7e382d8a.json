@@ -13,8 +13,8 @@
       "url": "https://jsonplaceholder.typicode.com/posts",
       "headers": [],
       "params": [],
-      "body": "\n",
-      "body_type": "None",
+      "body": "",
+      "body_type": "FormData",
       "auth_type": "None",
       "bearer_token": "",
       "basic_user": "",
@@ -22,15 +22,26 @@
       "api_key_name": "",
       "api_key_value": "",
       "api_key_location": "Header",
-      "form_data_fields": [],
+      "form_data_fields": [
+        {
+          "id": "3f0cca0f-928e-4d3c-9cf8-c6de15b33d88",
+          "key": "",
+          "value": "",
+          "field_type": "File",
+          "enabled": true,
+          "file_name": null,
+          "file_data": null,
+          "mime_type": null
+        }
+      ],
       "cookie_string": "",
       "cookies": [],
       "jwt_secret": "",
       "jwt_subject": "",
       "jwt_algo": "HS256",
-      "pre_request_script": "\n",
+      "pre_request_script": "",
       "test_script": "\n",
-      "timeout_ms": 30000
+      "timeout_ms": 1000
     }
   ]
 }

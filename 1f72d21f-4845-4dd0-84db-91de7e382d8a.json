@@ -10,7 +10,7 @@
       "collection_id": "1f72d21f-4845-4dd0-84db-91de7e382d8a",
       "name": "New Request",
       "method": "Get",
-      "url": "https://jsonplaceholder.typicode.com/postsss",
+      "url": "https://jsonplaceholder.typicode.com/posts",
       "headers": [],
       "params": [],
       "body": "{\n  \"body\": \"quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto\",\n  \"id\": 1\n}",

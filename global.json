@@ -1,0 +1,4 @@
+{
+  "pre_request_script": "let claims = jwt_decode(cookie(\"accessToken\"))\nprint(cookie(\"accessToken\"))\nset_header(\"X-User-Detail\",claims.payload.masterPhrId)\nprint(headers())",
+  "test_script": ""
+}

@@ -39,9 +39,8 @@
       "jwt_secret": "",
       "jwt_subject": "",
       "jwt_algo": "HS256",
-      "pre_request_script": "",
-      "test_script": "\n",
-      "timeout_ms": 1000
+      "pre_request_script": "let claims = jwt_decode(cookie(\"accessToken\"))\nprint(cookie(\"accessToken\"))\nset_header(\"X-User-Detail\",  claims.payload.masterPhrId)\nprint(headers())\n",
+      "test_script": ""
     }
   ]
 }
